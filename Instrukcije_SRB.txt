@@ -1,0 +1,8 @@
+		Instrukcije za web prezentaciju
+
+Osnovna web prezentacija o Planini Rtanj, napravljena samo na srpskom jeziku. 
+Sajt je napravljen kao seminarski rad za studenta koji pohadja Visoku Turističku skolu struktovnih studija.
+Sajt ne sme da se postavlja na internet kao prava web prezentacija, jer ne poseduje korisnicka prava na slike i tekst korisćeni na sajta.
+Sajt je pravljen koršcenjem HTML i CSS.
+Bilo koja pitanja vezana na sajt mozete da posaljete na NikolaRistic1992@gmail.com.
+

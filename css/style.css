@@ -1,0 +1,153 @@
+body {
+	padding:0px;
+	margin:0px;
+}
+
+/*container that contains main size of site*/
+#container {
+	height:1500px;
+	width:100%;
+	min-width:1000px;
+}
+
+/*main contains big picture and title of site*/
+#header {
+	background:#ffffff url(../Slike/Slika31.jpg) no-repeat;
+	background-size:100% 100%;
+	height:28%;
+	width:99%;
+	margin:0px;
+	padding:0px;
+	padding-left:1%;
+	padding-top:1%;
+}
+/*navigation*/
+#menu {
+	background: url(../Slike/Slika_meni.jpg) no-repeat;
+	background-size:100% 100%;
+	padding:1%;
+	width:98%;
+	height:4%;
+	margin:0px;
+	border-bottom: inset green;
+}
+
+#coolmenu {
+	list-style-type:none;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	
+}
+
+#coolmenu > li {
+	display:inline-block;
+	margin:0px;
+	margin-left:1%;
+	padding:1%;
+	width:12%;
+	height:50%;
+}
+#coolmenu >li > a {
+	width:100%;
+	height:100%;
+	display:block;
+	margin:0px;
+	padding:2%;
+	border-left:ridge grey;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:none;
+	text-transform:capitalize;
+	font-size:1em;
+}
+
+#coolmenu a:hover {
+	opacity:0.6;
+	background-color:black;
+}
+
+#coolmenu li:hover ul{
+	display:block;
+}
+
+/* submenu */
+ul.under_menu {
+	list-style-type:none;
+	display:none;
+	position: absolute;
+	margin-left:-2%;		
+}
+
+ul.under_menu li {
+	display:block;
+	width:100%;
+	height:100%;
+	background: url(../Slike/Slika_meni.jpg) no-repeat;
+	background-position:right top;
+	margin:0px;
+	padding:3%;	
+}
+
+ul.under_menu a {
+	display:block;
+	height:100%;
+	width:95%;
+	 margin:0px;
+        padding:2%;
+        border-left:ridge grey;
+        font-weight:bold;
+        color:#FFFFFF;
+        text-decoration:none;
+        text-transform:capitalize;
+        font-size:1em;
+
+}
+/* Basic style of main elements where basic content is shown */
+#left {
+	background:url(../Slike/background.jpg) no-repeat;
+	background-size:100% 100%;
+	height:65%;
+	width:17%;
+	display:inline-block;
+	margin:0px;
+	padding:0px;
+}
+
+#content {
+	background:#FFFFFF;
+	background-size:100% 100%;
+	height:60%;
+	width:56%;
+	display:inline-block;
+	padding-left:2%;
+	padding-right:2%;
+	overflow:auto;
+}
+
+/* text style of the content */
+p {
+	text-align:justify;
+}
+p.italic {
+	font-style:italic;
+}
+
+
+#right {
+	background: url(../Slike/background.jpg) no-repeat;
+	background-size:100% 100%;
+	height:65%;
+	width:22%;
+	display:inline-block;
+	padding:0px;
+	margin:0px;
+}
+
+#footer {
+	margin-top:0px;
+	background-color:#FFA500;
+	text-align:center;
+	padding:0.5%;
+	height:1%;
+}
